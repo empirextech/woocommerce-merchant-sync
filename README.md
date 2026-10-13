@@ -31,6 +31,10 @@ composer install
 composer test
 ```
 
+## Security
+
+Admin actions require `manage_woocommerce` plus a nonce. Direct file access is blocked. Do not commit Merchant Center OAuth tokens or client catalogs.
+
 ## License
 
 GPL-2.0-or-later (WordPress derivative). EMPIREX Tech / SC EMPIRE GLOBAL SOLUTIONS SRL.
