@@ -1,0 +1,10 @@
+{
+    "name": "empirex/woocommerce-merchant-sync",
+    "description": "WooCommerce incremental merchant-center push with lock and circuit breaker.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {"php": "^8.3"},
+    "require-dev": {"phpunit/phpunit": "^11.5"},
+    "autoload": {"psr-4": {"EmpireX\\MerchantSync\\": "includes/"}},
+    "scripts": {"test": "phpunit --colors=always"}
+}
